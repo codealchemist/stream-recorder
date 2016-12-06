@@ -1,5 +1,5 @@
 {
-  "name": "stream-recorder",
+  "name": "stream-to-file",
   "version": "1.0.0",
   "description": "Writes remote streams to local files.",
   "main": "index.js",
