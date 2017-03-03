@@ -44,7 +44,7 @@ if (time) {
   const timeParts = time.split(':')
   const hours = parseInt(timeParts[0], 10)
   const minutes = parseInt(timeParts[1], 10)
-  const timeMs = ((hours*60*60) + (minutes*60)) * 1000
+  const timeMs = ((hours * 60 * 60) + (minutes * 60)) * 1000
 
   if (!Number.isInteger(hours) || !Number.isInteger(minutes)) {
     console.error('  - Invalid time. Cancel recording with ctrl+c.')

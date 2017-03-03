@@ -4,7 +4,7 @@
   "description": "Writes remote streams to local files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard-focus"
   },
   "keywords": [
     "audio",
@@ -19,5 +19,8 @@
   "dependencies": {
     "pretty-bytes": "^4.0.2",
     "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "standard-focus": "^1.1.2"
   }
 }
