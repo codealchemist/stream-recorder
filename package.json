@@ -1,6 +1,6 @@
 {
   "name": "stream-to-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Writes remote streams to local files.",
   "main": "index.js",
   "scripts": {
