@@ -7,7 +7,7 @@
 
     [ Writes remote streams to local files. ]
     
-    Usage: node stream-record.js [url] [outputFile] [[time]]
+    Usage: node stream-to-file.js [url] [outputFile] [[time]]
 
     - url: The url with the audio stream.
     - outputFile: The file where you want to write audio to.
@@ -18,3 +18,5 @@
 ```
 
 
+### TODO
+Add recording start time.
