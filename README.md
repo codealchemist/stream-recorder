@@ -25,7 +25,7 @@ For programatic usage in your project:
 
 
 ## Programatic usage
-```
+```javascript
 const StreamToFile = require('stream-to-file')
 const downloader = new StreamToFile({
   url: 'http://19353.live.streamtheworld.com:3690/977_90_SC',
