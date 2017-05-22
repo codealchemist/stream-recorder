@@ -6,6 +6,9 @@
   "scripts": {
     "test": "standard-focus"
   },
+  "bin": {
+    "stream-to-file": "./bin.js"
+  },
   "keywords": [
     "audio",
     "recorder",
@@ -15,6 +18,7 @@
     "name": "Alberto Miranda",
     "email": "b3rt.js@gmail.com"
   },
+  "repository": "codealchemist/stream-to-file",
   "license": "MIT",
   "dependencies": {
     "pretty-bytes": "^4.0.2",
